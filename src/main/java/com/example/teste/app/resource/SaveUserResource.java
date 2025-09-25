@@ -31,6 +31,11 @@ public class SaveUserResource {
         userService.salvarUsuario(user);
     }
 
+    @GetMapping("/hello_world")
+    public String helloWorld() {
+        return "Hello World!";
+    }
+
     @GetMapping("/users")
     public ResponseEntity<List<GetUserDto>> getUsers() {
 
