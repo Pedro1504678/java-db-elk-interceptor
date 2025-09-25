@@ -636,3 +636,8 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-09-24T22:17:44.741-03:00  INFO 6224 --- [teste] [RMI TCP Connection(3)-172.19.144.1] o.a.c.c.C.[.[.[/app-florentino]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-09-24T22:17:44.743-03:00  INFO 6224 --- [teste] [RMI TCP Connection(3)-172.19.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-09-24T22:17:44.746-03:00  INFO 6224 --- [teste] [RMI TCP Connection(3)-172.19.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-09-24T22:19:30.668-03:00  INFO 6224 --- [teste] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-24T22:19:30.712-03:00  INFO 6224 --- [teste] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-24T22:19:30.721-03:00  INFO 6224 --- [teste] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-24T22:19:30.723-03:00  INFO 6224 --- [teste] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-24T22:19:30.727-03:00  INFO 6224 --- [teste] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
